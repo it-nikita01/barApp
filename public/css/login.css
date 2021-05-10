@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #aab7ff;
+}
+#app{
+    height: inherit;
+    /* color: #fff !important; */
+}
+.login-body{
+    display: flex;
+    width: 95%;
+    margin: 30px auto;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.295);
+    background: #fff;
+    border-radius: 25px;
+}
+.login-img{
+    width: 50%;
+    margin: 150px 60px;
+}
+.login-img img{
+    width: 100%;
+}
+.login-form{
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+    color: #000;
+}
+.login-form form{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.signup-avatar{
+    width: 18%;
+    margin: 15px auto;
+    
+}
+.sign-up-submit{
+    margin-top : 30px !important;
+}
+.login{
+    margin : 30px 0 !important;
+    background: rgb(0, 196, 147) !important;
+}
+.RTHbtn{
+    margin: 0 0 30px 0 !important;
+}
+.show{
+    display: flex !important;
+}
+.hide{
+    display: none !important;
+}
+
+
+@media screen and (max-width: 550px){
+    .login-img{
+        display: none;
+    }
+    .login-form{
+        width: unset;
+    }
+    #app{
+        overflow: scroll !important;
+    }
+}
